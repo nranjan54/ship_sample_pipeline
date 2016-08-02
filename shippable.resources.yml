@@ -28,6 +28,13 @@ resources:
       sourceName: nranjanShippable/sample-script
       branch: master
 
+  - name: dv-gitRepoOut
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: nranjanShippable/sample-script
+      branch: master
+
   # - name: box-image
   #   type: image
   #   integration: ric03uec-dh
