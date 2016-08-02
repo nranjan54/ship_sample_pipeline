@@ -3,12 +3,13 @@ jobs:
     type: manifest
     steps:
       - IN: dv-image
+      - IN: ssdocker
         pull: false
-      # - IN: dv-opts
-      # - IN: dv-params
+      - IN: dv-opts
+      - IN: dv-params
         applyTo:
           - dv-image
-      # - TASK: managed
+      - TASK: managed
       #   - IN: trigger-dv-man
     on_success:
       - echo 'this is on_success step of dv-man of type manifest'
