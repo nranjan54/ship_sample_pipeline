@@ -10,7 +10,7 @@ jobs:
         applyTo:
           - dv-image
       - TASK: managed
-      #   - IN: trigger-dv-man
+      - IN: trigger-dv-man-1
     on_success:
       - echo 'this is on_success step of dv-man of type manifest'
     on_failure:
