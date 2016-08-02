@@ -7,6 +7,7 @@ jobs:
         pull: false
       - IN: dv-opts
       - IN: dv-params
+      - IN: dv-gitRepo
         applyTo:
           - dv-image
       - TASK: managed
