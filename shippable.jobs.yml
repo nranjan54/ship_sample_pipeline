@@ -1,19 +1,19 @@
-# jobs:
-#   - name: dv-man
-#     type: manifest
-#     steps:
-#       - IN: dv-image
-#         pull: false
-#       - IN: dv-opts
-#       - IN: dv-params
-#         applyTo:
-#           - dv-image
-#       - TASK: managed
-#       - IN: trigger-dv-man
-#     on_success:
-#       - echo 'this is on_success step of dv-man of type manifest'
-#     on_failure:
-#       - echo 'this is on_failure step of dv-man of type manifest'
+jobs:
+  - name: dv-man
+    type: manifest
+    steps:
+      - IN: dv-image
+        pull: false
+      # - IN: dv-opts
+      # - IN: dv-params
+        applyTo:
+          - dv-image
+      # - TASK: managed
+      #   - IN: trigger-dv-man
+    on_success:
+      - echo 'this is on_success step of dv-man of type manifest'
+    on_failure:
+      - echo 'this is on_failure step of dv-man of type manifest'
 
 #   - name: dv-man-versionName
 #     type: manifest

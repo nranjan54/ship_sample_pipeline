@@ -3,7 +3,7 @@ resources:
     type: image
     integration: docker
     pointer:
-      sourceName: "library/nginx"
+      sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
 
