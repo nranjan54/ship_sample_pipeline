@@ -3,7 +3,6 @@ jobs:
     type: manifest
     steps:
       - IN: dv-image
-      - IN: ssdocker
         pull: false
       - IN: dv-opts
       - IN: dv-params
