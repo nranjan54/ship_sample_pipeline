@@ -11,6 +11,7 @@ jobs:
         applyTo:
           - dv-image
       - TASK: managed
+      - OUT: dv-gitRepoOut
     on_success:
       - echo 'this is on_success step of dv-man of type manifest'
     on_failure:
