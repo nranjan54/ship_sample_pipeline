@@ -7,33 +7,33 @@ resources:
     seed:
       versionName: latest
 
-  - name: dv-opts
-    type: dockerOptions
-    version:
-      memory: 64
-      cpuShares: 256
-      portMappings:
-        - "80:80"
+  # - name: dv-opts
+  #   type: dockerOptions
+  #   version:
+  #     memory: 64
+  #     cpuShares: 256
+  #     portMappings:
+  #       - "80:80"
 
-  - name: dv-params
-    type: params
-    version:
-      params:
-        MONGO_API_URL: "localhost:28017"
+  # - name: dv-params
+  #   type: params
+  #   version:
+  #     params:
+  #       MONGO_API_URL: "localhost:28017"
 
-  - name: dv-gitRepo
-    type: gitRepo
-    integration: github
-    pointer:
-      sourceName: nranjanShippable/sample-script
-      branch: master
+  # - name: dv-gitRepo
+  #   type: gitRepo
+  #   integration: github
+  #   pointer:
+  #     sourceName: nranjanShippable/sample-script
+  #     branch: master
 
-  - name: dv-gitRepoOut
-    type: gitRepo
-    integration: github
-    pointer:
-      sourceName: nranjanShippable/sample-script
-      branch: master
+  # - name: dv-gitRepoOut
+  #   type: gitRepo
+  #   integration: github
+  #   pointer:
+  #     sourceName: nranjanShippable/sample-script
+  #     branch: master
 
   # - name: box-image
   #   type: image
