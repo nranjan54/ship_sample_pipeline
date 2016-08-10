@@ -7,6 +7,14 @@ resources:
     seed:
       versionName: latest
 
+  - name: dv-image-1
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "nranjan/ubuntu"
+    seed:
+      versionName: latest
+
   # - name: dv-opts
   #   type: dockerOptions
   #   version:
