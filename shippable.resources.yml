@@ -15,7 +15,7 @@ resources:
     seed:
       versionName: latest
 
-  - name: dv-image-1
+  - name: dv-image-2
     type: image
     integration: docker
     pointer:
