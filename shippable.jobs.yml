@@ -7,6 +7,7 @@ jobs:
       # - IN: dv-image
       # - IN: dv-params
       # - IN: dv-gitRepo
+      - IN: trigger-dv-man-2
       - IN: trigger-dv-man-1
         # applyTo:
         #   - dv-image
