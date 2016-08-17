@@ -22,7 +22,7 @@ jobs:
   - name: dv-man-1
     type: manifest
     steps:
-      # - IN: dv-image-1
+      - IN: dv-image-1
       - IN: dv-image-2
       - IN: dv-image-3
         pull: true
