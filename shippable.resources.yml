@@ -1,11 +1,11 @@
-# resources:
-#   - name: dv-image
-#     type: image
-#     integration: docker
-#     pointer:
-#       sourceName: "nranjan/ubuntu2"
-#     seed:
-#       versionName: latest
+resources:
+  - name: dv-image
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "nranjan/ubuntu2"
+    seed:
+      versionName: latest
 
 #   - name: dv-image-1
 #     type: image
