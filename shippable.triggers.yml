@@ -1,10 +1,10 @@
-# triggers:
-#   - name: trigger-dv-man-1
-#     type: trigger
-#     version:
-#       counter: 36
+triggers:
+  - name: trigger-dv-man-1
+    type: trigger
+    version:
+      counter: 36
 
-#   - name: trigger-dv-man-2
-#     type: trigger
-#     version:
-#       counter: 20
+  - name: trigger-dv-man-2
+    type: trigger
+    version:
+      counter: 20
