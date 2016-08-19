@@ -39,6 +39,14 @@ resources:
     seed:
       versionName: latest
 
+  - name: dv-image-5
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "library/nginx"
+    seed:
+      versionName: latest
+
 #   # - name: dv-opts
 #   #   type: dockerOptions
 #   #   version:
