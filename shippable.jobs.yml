@@ -19,16 +19,16 @@ jobs:
     on_failure:
       - echo "this is on_failure step of dv-man of type manifest"
 
-  # - name: success
-  #   type: runSh
-  #   steps:
-  #     - IN: trigger-dv-man-1
-  #   on_success:
-  #     - uname -a
-  #     - echo "this works"
-  #   on_failure:
-  #     - uname -a
-  #     - echo "Inside on failure"
+  - name: success
+    type: runSh
+    steps:
+      # - IN: trigger-dv-man-1
+    on_success:
+      - uname -a
+      - echo "this works"
+    on_failure:
+      - uname -a
+      - echo "Inside on failure"
 
   - name: dv-man-1
     type: manifest
