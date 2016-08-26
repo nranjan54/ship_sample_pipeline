@@ -26,6 +26,7 @@ jobs:
       - IN: dv-image-2
       - IN: dv-image-3
       - IN : trigger-dv-man-2
+      - IN: dv-man
         pull: true
       # - IN: dv-opts
       # - IN: dv-params
@@ -36,6 +37,7 @@ jobs:
       - TASK: managed
       # - OUT: dv-gitRepoOut
       - OUT: dv-image-4
+      - OUT: dockOutImage
     on_success:
       - echo 'this is on_success step of dv-man of type manifest'
     on_failure:
