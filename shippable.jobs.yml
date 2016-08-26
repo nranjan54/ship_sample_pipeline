@@ -3,7 +3,6 @@ jobs:
     type: manifest
     steps:
       - IN: dv-image
-      - IN: dv-man-4
         pull: true
       - IN: dockInImage
       # - IN: dv-params
@@ -50,7 +49,7 @@ jobs:
       # - IN: dv-image
       #   pull: true
       # - IN: dockInImage
-      - IN: dv-man
+      - IN: dv-man-1
       # - IN: dv-params
       # - IN: dv-gitRepo
       # - IN: trigger-dv-man-2
@@ -71,7 +70,7 @@ jobs:
       # - IN: dv-image
       #   pull: true
       # - IN: dockInImage
-      - IN: dv-man
+      - IN: dv-man-2
       # - IN: dv-params
       # - IN: dv-gitRepo
       # - IN: trigger-dv-man-2
@@ -93,8 +92,8 @@ jobs:
       #   pull: true
       # - IN: dockInImage
       # - IN: dv-man
-      - IN: dv-man-1
-      - IN: dv-man-2
+      # - IN: dv-man-1
+      # - IN: dv-man-2
       - IN: dv-man-3
       # - IN: dv-params
       # - IN: dv-gitRepo
