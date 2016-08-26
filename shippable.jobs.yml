@@ -13,7 +13,7 @@ jobs:
         #   - dv-image
       - TASK: managed
       # - OUT: dv-gitRepoOut
-      - OUT: dv-image-1
+      # - OUT: dv-image-1
     on_success:
       - echo "this is on_success step of dv-man of type manifest"
     on_failure:
