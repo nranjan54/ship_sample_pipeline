@@ -43,72 +43,72 @@ jobs:
     on_failure:
       - echo 'this is on_failure step of dv-man of type manifest'
 
-  - name: dv-man-2
-    type: manifest
-    steps:
-      # - IN: dv-image
-      #   pull: true
-      # - IN: dockInImage
-      - IN: dv-man-1
-      # - IN: dv-params
-      # - IN: dv-gitRepo
-      # - IN: trigger-dv-man-2
-      # - IN: trigger-dv-man-1
-        # applyTo:
-        #   - dv-image
-      - TASK: managed
-      # - OUT: dv-gitRepoOut
-      # - OUT: dv-image-1
-    on_success:
-      - echo "this is on_success step of dv-man of type manifest"
-    on_failure:
-      - echo "this is on_failure step of dv-man of type manifest"
+  # - name: dv-man-2
+  #   type: manifest
+  #   steps:
+  #     # - IN: dv-image
+  #     #   pull: true
+  #     # - IN: dockInImage
+  #     - IN: dv-man-1
+  #     # - IN: dv-params
+  #     # - IN: dv-gitRepo
+  #     # - IN: trigger-dv-man-2
+  #     # - IN: trigger-dv-man-1
+  #       # applyTo:
+  #       #   - dv-image
+  #     - TASK: managed
+  #     # - OUT: dv-gitRepoOut
+  #     # - OUT: dv-image-1
+  #   on_success:
+  #     - echo "this is on_success step of dv-man of type manifest"
+  #   on_failure:
+  #     - echo "this is on_failure step of dv-man of type manifest"
 
-  - name: dv-man-3
-    type: manifest
-    steps:
-      # - IN: dv-image
-      #   pull: true
-      # - IN: dockInImage
-      - IN: dv-man-2
-      # - IN: dv-man
-      # - IN: dv-params
-      # - IN: dv-gitRepo
-      # - IN: trigger-dv-man-2
-      # - IN: trigger-dv-man-1
-        # applyTo:
-        #   - dv-image
-      - TASK: managed
-      # - OUT: dv-gitRepoOut
-      # - OUT: dv-image-1
-    on_success:
-      - echo "this is on_success step of dv-man of type manifest"
-    on_failure:
-      - echo "this is on_failure step of dv-man of type manifest"
+  # - name: dv-man-3
+  #   type: manifest
+  #   steps:
+  #     # - IN: dv-image
+  #     #   pull: true
+  #     # - IN: dockInImage
+  #     - IN: dv-man-2
+  #     # - IN: dv-man
+  #     # - IN: dv-params
+  #     # - IN: dv-gitRepo
+  #     # - IN: trigger-dv-man-2
+  #     # - IN: trigger-dv-man-1
+  #       # applyTo:
+  #       #   - dv-image
+  #     - TASK: managed
+  #     # - OUT: dv-gitRepoOut
+  #     # - OUT: dv-image-1
+  #   on_success:
+  #     - echo "this is on_success step of dv-man of type manifest"
+  #   on_failure:
+  #     - echo "this is on_failure step of dv-man of type manifest"
 
-  - name: dv-man-4
-    type: manifest
-    steps:
-      # - IN: dv-image
-      #   pull: true
-      # - IN: dockInImage
-      # - IN: dv-man
-      # - IN: dv-man-1
-      # - IN: dv-man-2
-      - IN: dv-man-3
-      # - IN: dv-params
-      # - IN: dv-gitRepo
-      # - IN: trigger-dv-man-2
-      # - IN: trigger-dv-man-1
-        # applyTo:
-        #   - dv-image
-      - TASK: managed
-      # - OUT: dv-gitRepoOut
-      # - OUT: dv-image-1
-    on_success:
-      - echo "this is on_success step of dv-man of type manifest"
-    on_failure:
-      - echo "this is on_failure step of dv-man of type manifest"
+  # - name: dv-man-4
+  #   type: manifest
+  #   steps:
+  #     # - IN: dv-image
+  #     #   pull: true
+  #     # - IN: dockInImage
+  #     # - IN: dv-man
+  #     # - IN: dv-man-1
+  #     # - IN: dv-man-2
+  #     - IN: dv-man-3
+  #     # - IN: dv-params
+  #     # - IN: dv-gitRepo
+  #     # - IN: trigger-dv-man-2
+  #     # - IN: trigger-dv-man-1
+  #       # applyTo:
+  #       #   - dv-image
+  #     - TASK: managed
+  #     # - OUT: dv-gitRepoOut
+  #     # - OUT: dv-image-1
+  #   on_success:
+  #     - echo "this is on_success step of dv-man of type manifest"
+  #   on_failure:
+  #     - echo "this is on_failure step of dv-man of type manifest"
 
 # #   - name: dv-man-versionName
 # #     type: manifest
