@@ -4,7 +4,7 @@ jobs:
     steps:
       - IN: dv-image
         pull: true
-      - IN: dv-man-1
+      # - IN: dv-man-1
       # - IN: dv-params
       # - IN: dv-gitRepo
       # - IN: trigger-dv-man-2
