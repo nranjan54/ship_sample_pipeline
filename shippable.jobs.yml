@@ -2,7 +2,7 @@ jobs:
   - name: script-somerandomshit
     type: runSh
     steps:
-      - IN: sample-script-2
+      # - IN: sample-script-2
       - IN: trigger-dv-man-1
       - TASK:
         - script: echo 'ys'
