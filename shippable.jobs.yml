@@ -12,6 +12,7 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
+
   - name: dv-man
     type: manifest
     steps:
