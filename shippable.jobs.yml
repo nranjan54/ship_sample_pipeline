@@ -14,9 +14,9 @@ jobs:
       - script: echo "Inside on failure"
 
   - name: dv-man
-    type: manifest
+    type: runSh
     steps:
-      - IN: dv-image
+      # - IN: dv-image
       #   pull: true
       # - IN: dockOutImage
       # - IN: dv-params
@@ -34,9 +34,9 @@ jobs:
       - echo "this is on_failure step of dv-man of type manifest"
 
   - name: dv-man-2
-    type: manifest
+    type: runSh
     steps:
-      - IN: dv-man
+      # - IN: dv-man
       #   pull: true
       # - IN: dockOutImage
       # - IN: dv-params
