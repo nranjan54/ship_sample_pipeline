@@ -1,4 +1,17 @@
 jobs:
+  - name: script-somerandomshit
+    type: runSh
+    steps:
+      - IN: sample-script-2
+      - IN: trigger-dv-man-1
+      - TASK:
+        - script: echo 'ys'
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
   - name: dv-man
     type: manifest
     steps:

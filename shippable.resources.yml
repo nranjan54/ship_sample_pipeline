@@ -7,6 +7,13 @@ resources:
     seed:
       versionName: latest
 
+  - name: sample-script-2
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: nranjanShippable/sample-script
+      branch: master
+
   - name: dv-image-1
     type: image
     integration: docker
