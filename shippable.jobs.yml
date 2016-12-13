@@ -3,8 +3,8 @@ jobs:
     type: manifest
     steps:
       - IN: dv-image
-        pull: true
-      - IN: dockOutImage
+      #   pull: true
+      # - IN: dockOutImage
       # - IN: dv-params
       # - IN: dv-gitRepo
       # - IN: trigger-dv-man-2
@@ -26,7 +26,7 @@ jobs:
       # - IN: dv-image-2
       # - IN: dv-image-3
       # - IN : trigger-dv-man-2
-      - IN: dv-man
+      - IN: dv-image
         pull: true
       # - IN: dv-opts
       # - IN: dv-params
