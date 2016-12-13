@@ -5,7 +5,7 @@ jobs:
       # - IN: sample-script-2
       - IN: trigger-dv-man-1
       - TASK:
-        - script: echo 'ys'
+        - script: sleep 1m
     on_success:
       # - uname -a
       - script: echo "this works"
@@ -18,8 +18,9 @@ jobs:
     steps:
       # - IN: sample-script-2
       - IN: runSh-1
+      - IN: trigger-dv-man-1
       - TASK:
-        - script: echo 'ys'
+        - script: sleep 1m
     on_success:
       # - uname -a
       - script: echo "this works"
@@ -32,8 +33,9 @@ jobs:
     steps:
       # - IN: sample-script-2
       - IN: runSh-2
+      - IN: trigger-dv-man-1
       - TASK:
-        - script: echo 'ys'
+        - script: sleep 1m
     on_success:
       # - uname -a
       - script: echo "this works"
