@@ -17,7 +17,7 @@ jobs:
     type: runSh
     steps:
       # - IN: sample-script-2
-      - IN: trigger-dv-man-1
+      - IN: runSh-1
       - TASK:
         - script: echo 'ys'
     on_success:
@@ -31,7 +31,7 @@ jobs:
     type: runSh
     steps:
       # - IN: sample-script-2
-      - IN: trigger-dv-man-1
+      - IN: runSh-2
       - TASK:
         - script: echo 'ys'
     on_success:
