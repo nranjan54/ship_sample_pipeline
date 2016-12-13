@@ -1,5 +1,33 @@
 jobs:
-  - name: script-somerandomshit
+  - name: runSh-1
+    type: runSh
+    steps:
+      # - IN: sample-script-2
+      - IN: trigger-dv-man-1
+      - TASK:
+        - script: echo 'ys'
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+
+  - name: runSh-2
+    type: runSh
+    steps:
+      # - IN: sample-script-2
+      - IN: trigger-dv-man-1
+      - TASK:
+        - script: echo 'ys'
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+
+  - name: runSh-3
     type: runSh
     steps:
       # - IN: sample-script-2
@@ -14,9 +42,9 @@ jobs:
       - script: echo "Inside on failure"
 
   - name: dv-man
-    type: runSh
+    type: manifest
     steps:
-      # - IN: dv-image
+      - IN: dv-image
       #   pull: true
       # - IN: dockOutImage
       # - IN: dv-params
@@ -34,9 +62,9 @@ jobs:
       - echo "this is on_failure step of dv-man of type manifest"
 
   - name: dv-man-2
-    type: runSh
+    type: manifest
     steps:
-      # - IN: dv-man
+      - IN: dv-man
       #   pull: true
       # - IN: dockOutImage
       # - IN: dv-params
