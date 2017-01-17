@@ -14,45 +14,45 @@ resources:
   #     sourceName: nranjanShippable/sample-script
   #     branch: master
 
-  - name: dv-image-1
-    type: image
-    integration: docker
-    pointer:
-      sourceName: "nranjan/ubuntu"
-    seed:
-      versionName: latest
+  # - name: dv-image-1
+  #   type: image
+  #   integration: docker
+  #   pointer:
+  #     sourceName: "nranjan/ubuntu"
+  #   seed:
+  #     versionName: latest
 
-  - name: dv-image-2
-    type: image
-    integration: docker
-    pointer:
-      sourceName: "library/nginx"
-    seed:
-      versionName: latest
+  # - name: dv-image-2
+  #   type: image
+  #   integration: docker
+  #   pointer:
+  #     sourceName: "library/nginx"
+  #   seed:
+  #     versionName: latest
 
-  - name: dv-image-3
-    type: image
-    integration: docker
-    pointer:
-      sourceName: "library/nginx"
-    seed:
-      versionName: latest
+  # - name: dv-image-3
+  #   type: image
+  #   integration: docker
+  #   pointer:
+  #     sourceName: "library/nginx"
+  #   seed:
+  #     versionName: latest
 
-  - name: dv-image-4
-    type: image
-    integration: docker
-    pointer:
-      sourceName: "library/nginx"
-    seed:
-      versionName: latest
+  # - name: dv-image-4
+  #   type: image
+  #   integration: docker
+  #   pointer:
+  #     sourceName: "library/nginx"
+  #   seed:
+  #     versionName: latest
 
-  - name: dv-image-6
-    type: image
-    integration: docker
-    pointer:
-      sourceName: "library/nginx"
-    seed:
-      versionName: latest
+  # - name: dv-image-6
+  #   type: image
+  #   integration: docker
+  #   pointer:
+  #     sourceName: "library/nginx"
+  #   seed:
+  #     versionName: latest
 
 #   # - name: dv-opts
 #   #   type: dockerOptions
