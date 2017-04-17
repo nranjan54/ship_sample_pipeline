@@ -34,7 +34,8 @@ jobs:
       # - IN: sample-script-2
       - IN: runSh-1
       - IN: runSh-2
-      #- IN: trigger-dv-man-1
+      - IN: trigger-dv-man-1
+      - IN: trigger-dv-man-2
       - TASK:
         - script: sleep 15
     on_success:
