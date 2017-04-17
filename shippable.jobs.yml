@@ -37,7 +37,7 @@ jobs:
       - IN: trigger-dv-man-1
       - IN: trigger-dv-man-2
       - TASK:
-        - script: echo "in Tasks"
+        - script: echo "*************** In Tasks *************"
         - script: sleep 15
     on_success:
       # - uname -a
