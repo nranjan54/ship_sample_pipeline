@@ -3,7 +3,6 @@ triggers:
     type: trigger
     version:
       counter: 105
-  - test
   - name: trigger-dv-man-2
     type: trigger
     version:
