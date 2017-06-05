@@ -30,6 +30,7 @@ jobs:
 
   - name: runSh-3
     type: runSh
+    allowPublicAccess: true
     steps:
       # - IN: sample-script-2
       - IN: runSh-1
