@@ -39,7 +39,7 @@ jobs:
       - IN: trigger-dv-man-2
       - TASK:
         - script: echo "*************** In Tasks *************"
-        - script: sleep 1
+        - script: sleep 50
         - script: echo $JOB_STATE
         - script: ls
         - script: echo "versionName=satble" >> $JOB_STATE/runSh-3.env;
