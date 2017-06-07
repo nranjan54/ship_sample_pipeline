@@ -1,9 +1,9 @@
 triggers:
-  - name: trigger-dv-man-1
+  - name: trigger-dv-man-1_1
     type: trigger
     version:
       counter: 106
-  - name: trigger-dv-man-2
+  - name: trigger-dv-man-2_1
     type: trigger
     version:
       counter: 51
