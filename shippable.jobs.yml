@@ -1,9 +1,9 @@
 jobs:
-  - name: runSh-1
+  - name: runSh-1_1
     type: runSh
     steps:
       # - IN: sample-script-2
-      - IN: trigger-dv-man-1
+      - IN: trigger-dv-man-1_1
       - TASK:
         - script: sleep 1
     on_success:
@@ -13,12 +13,12 @@ jobs:
       # - uname -a
       - script: echo "Inside on failure"
 
-  - name: runSh-2
+  - name: runSh-2_1
     type: runSh
     steps:
       # - IN: sample-script-2
-      - IN: runSh-1
-      - IN: trigger-dv-man-1
+      - IN: runSh-1_1
+      - IN: trigger-dv-man-1_1
       - TASK:
         - script: sleep 1
     on_success:
@@ -28,15 +28,15 @@ jobs:
       # - uname -a
       - script: echo "Inside on failure"
 
-  - name: runSh-3
+  - name: runSh-3_1
     type: runSh
     allowPublicAccess: true
     steps:
       # - IN: sample-script-2
-      - IN: runSh-1
-      - IN: runSh-2
-      - IN: trigger-dv-man-1
-      - IN: trigger-dv-man-2
+      - IN: runSh-1_1
+      - IN: runSh-2_1
+      - IN: trigger-dv-man-1_1
+      - IN: trigger-dv-man-2_1
       - TASK:
         - script: echo "*************** In Tasks *************"
         - script: sleep 15
