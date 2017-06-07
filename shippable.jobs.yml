@@ -42,18 +42,9 @@ jobs:
         - script: sleep 15
         - script: echo $JOB_STATE
         - script: ls
-        - script: echo "versionName=satble" >> $JOB_STATE/runSh-3.env;
-        - script: echo "API_URL=0.0.0.0" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_A=1" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_B=2" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_C=3" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_D=4" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_E=5" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_F=6" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_G=7" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_H=8" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_I=9" >> $JOB_STATE/runSh-3.env
-        - script: echo "VAR_J=10" >> $JOB_STATE/runSh-3.env
+        - script: echo "versionName=satble" >> $JOB_STATE/runSh-3_1.env;
+        - script: echo "API_URL=0.0.0.0" >> $JOB_STATE/runSh-3_1.env
+        - script: echo "VAR_A=1" >> $JOB_STATE/runSh-3_1.env
     on_success:
       # - uname -a
       - script: echo "this works"
