@@ -38,6 +38,7 @@ jobs:
       - IN: trigger-dv-man-1_1
       - IN: trigger-dv-man-2_1
       - TASK:
+        - script: echo "testing link http://www.google.com"
         - script: echo "*************** In Tasks *************"
         - script: sleep 15
         - script: echo $JOB_STATE
