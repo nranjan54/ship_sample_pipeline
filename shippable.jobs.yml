@@ -40,7 +40,7 @@ jobs:
       - TASK:
         - script: echo "testing link http://www.google.com"
         - script: echo "*************** In Tasks *************"
-        - script: sleep 5
+        - script: sleep 15
         - script: echo $JOB_STATE
         - script: ls
         - script: echo "versionName=satble" >> $JOB_STATE/runSh-3_1.env;
