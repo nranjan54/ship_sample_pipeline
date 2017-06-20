@@ -67,11 +67,11 @@ jobs:
       # - uname -a
       - script: echo "Inside on failure"
      
-  - name: runSh-4_1
+  - name: runSh-5_1
     type: runSh
     steps:
       # - IN: sample-script-2
-      - IN: runSh-3_1
+      - IN: runSh-4_1
       - TASK:
         - script: sleep 1
     on_success:
