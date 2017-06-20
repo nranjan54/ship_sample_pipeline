@@ -66,6 +66,20 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
+     
+  - name: runSh-4_1
+    type: runSh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
 
   # - name: dv-man
   #   type: manifest
