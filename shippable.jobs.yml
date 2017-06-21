@@ -1,6 +1,8 @@
 jobs:
   - name: runSh-1_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: trigger-dv-man-1_1
@@ -15,6 +17,8 @@ jobs:
 
   - name: runSh-2_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: runSh-1_1
@@ -30,6 +34,8 @@ jobs:
 
   - name: runSh-3_1
     type: runSh
+    flags:
+      - runsh
     allowPublicAccess: true
     steps:
       # - IN: sample-script-2
@@ -55,6 +61,8 @@ jobs:
   
   - name: runSh-4_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: runSh-3_1
@@ -69,6 +77,8 @@ jobs:
      
   - name: runSh-5_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: runSh-4_1
@@ -82,6 +92,8 @@ jobs:
       - script: echo "Inside on failure"
   - name: runSh-6_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: runSh-3_1
@@ -95,6 +107,8 @@ jobs:
       - script: echo "Inside on failure"
   - name: runSh-7_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: runSh-3_1
@@ -109,6 +123,8 @@ jobs:
       
   - name: runSh-8_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: runSh-3_1
@@ -123,6 +139,8 @@ jobs:
       
   - name: runSh-9_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: runSh-3_1
@@ -136,6 +154,8 @@ jobs:
       - script: echo "Inside on failure"
   - name: runSh-10_1
     type: runSh
+    flags:
+      - runsh
     steps:
       # - IN: sample-script-2
       - IN: runSh-3_1
