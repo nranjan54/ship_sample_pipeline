@@ -167,7 +167,756 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
-
+  - name: runSh-11_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-12_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-13_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-14_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-15_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-16_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-17_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-18_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-19_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-20_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-21_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-22_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-23_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-24_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-25_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-26_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-27_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-28_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-29_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-30_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-31_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-32_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-33_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-34_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-35_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-36_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-37_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-38_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-39_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-40_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-41_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-42_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-43_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-44_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-45_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-46_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-47_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-48_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-49_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-50_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-51_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-52_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-53_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-54_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-55_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-56_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-57_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-58_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-59_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
+  - name: runSh-60_1
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
   # - name: dv-man
   #   type: manifest
   #   steps:
