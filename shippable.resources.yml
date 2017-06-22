@@ -363,6 +363,20 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+  - name: dv-image_53
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "nranjan/ubuntu2"
+    seed:
+      versionName: latest
+  - name: dv-image_54
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "nranjan/ubuntu2"
+    seed:
+      versionName: latest
 
   # - name: sample-script-2
   #   type: gitRepo
