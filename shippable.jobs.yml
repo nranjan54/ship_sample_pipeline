@@ -46,7 +46,7 @@ jobs:
       - TASK:
         - script: echo "testing link http://www.google.com"
         - script: echo "*************** In Tasks *************"
-        - script: sleep 150
+        - script: sleep 15
         - script: echo $JOB_STATE
         - script: ls
         - script: echo "versionName=satble" >> $JOB_STATE/runSh-3_1.env;
@@ -58,7 +58,6 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
-  
   - name: runSh-4_1
     type: runSh
     flags:
@@ -74,7 +73,6 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
-     
   - name: runSh-5_1
     type: runSh
     flags:
@@ -120,7 +118,6 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
-      
   - name: runSh-8_1
     type: runSh
     flags:
@@ -136,7 +133,6 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
-      
   - name: runSh-9_1
     type: runSh
     flags:

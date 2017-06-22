@@ -125,7 +125,7 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
-  - name: dv-image_1
+  - name: dv-image_19
     type: image
     integration: docker
     pointer:
