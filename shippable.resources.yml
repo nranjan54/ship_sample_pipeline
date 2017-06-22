@@ -13,6 +13,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_3
     type: image
     integration: docker
@@ -20,6 +22,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_4
     type: image
     integration: docker
@@ -27,6 +31,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_5
     type: image
     integration: docker
@@ -34,6 +40,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_6
     type: image
     integration: docker
@@ -41,6 +49,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_7
     type: image
     integration: docker
@@ -48,6 +58,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_8
     type: image
     integration: docker
@@ -55,6 +67,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_9
     type: image
     integration: docker
@@ -62,6 +76,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_10
     type: image
     integration: docker
@@ -69,6 +85,8 @@ resources:
       sourceName: "nranjan/ubuntu2"
     seed:
       versionName: latest
+    flags:
+      - image
   - name: dv-image_11
     type: image
     integration: docker
