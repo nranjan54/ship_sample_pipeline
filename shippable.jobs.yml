@@ -965,6 +965,21 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
+  - name: a_very_long_name_to_show_up_in_build_job_console_page
+    type: runSh
+    flags:
+      - runsh
+    steps:
+      # - IN: sample-script-2
+      - IN: runSh-3_1
+      - TASK:
+        - script: sleep 1
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
   # - name: dv-man
   #   type: manifest
   #   steps:
