@@ -129,6 +129,7 @@ jobs:
     type: runSh
     flags:
       - runsh
+    allowPublicAccess: true
     steps:
       # - IN: sample-script-2
       - IN: runSh-4_1
