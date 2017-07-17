@@ -135,7 +135,7 @@ jobs:
       - IN: runSh-4_1
       - IN: dv-params
       - TASK:
-        - script: sleep 1
+        - script: sleep 15s
     on_success:
       # - uname -a
       - script: echo "this works"
