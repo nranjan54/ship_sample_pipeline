@@ -993,6 +993,17 @@ jobs:
     on_failure:
       # - uname -a
       - script: echo "Inside on failure"
+  - name: runCLI_job_with_no_dependency
+    type: runCLI
+    steps:
+      - TASK:
+        - script: sleep 20
+    on_success:
+      # - uname -a
+      - script: echo "this works"
+    on_failure:
+      # - uname -a
+      - script: echo "Inside on failure"
   # - name: dv-man
   #   type: manifest
   #   steps:
