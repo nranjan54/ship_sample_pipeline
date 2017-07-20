@@ -985,7 +985,6 @@ jobs:
   - name: runSh_job_with_no_dependency
     type: runSh
     steps:
-      - IN: runCLI_job_with_no_dependency
       - TASK:
         - script: sleep 20
     on_success:
